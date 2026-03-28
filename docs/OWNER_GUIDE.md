@@ -585,8 +585,6 @@ If you want to keep improving the app later, these are strong next steps:
 
 ## 17. Final Summary
 
-If you remember only a few things, remember these:
-
 1. Redux owns the notebook content.
 2. Bundles are temporary and per code cell.
 3. Listener middleware handles debounced autosave.
@@ -594,5 +592,3 @@ If you remember only a few things, remember these:
 5. `show(...)` is the manual render helper.
 6. A default exported React component is auto-rendered.
 7. The folder structure now separates app shell, notebook feature, bundler infrastructure, and test utilities.
-
-If you want, I can also generate one more document after this: a file-by-file walkthrough where I explain every important source file in the exact order you should read them.
