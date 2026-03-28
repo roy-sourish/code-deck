@@ -1,0 +1,46 @@
+.preview-wrapper {
+  position: relative;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.preview-wrapper iframe {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.react-draggable-transparent-selection .preview-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.preview-error {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: red;
+}
+
+.preview-empty-state {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 18rem;
+  transform: translate(-50%, -50%);
+  color: #4a5568;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.preview-empty-state code {
+  padding: 0.1rem 0.35rem;
+  border-radius: 999px;
+  background: rgba(74, 85, 104, 0.12);
+  color: #1f2937;
+}

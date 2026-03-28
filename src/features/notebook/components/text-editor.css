@@ -1,0 +1,28 @@
+.w-md-editor-bar {
+  background: #445064;
+  width: 100% !important;
+  height: 15px !important;
+}
+
+.w-md-editor {
+  --md-editor-background-color: #364152 !important;
+  border-radius: 12px;
+}
+
+.wmde-markdown {
+  background-color: #364152 !important;
+}
+
+.text-editor-card {
+  min-height: 120px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.text-editor-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(15, 23, 32, 0.25);
+}

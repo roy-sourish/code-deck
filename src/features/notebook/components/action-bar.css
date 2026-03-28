@@ -1,0 +1,10 @@
+.action-bar {
+  position: absolute;
+  top: -0.75rem;
+  right: 1rem;
+  z-index: 30;
+  display: flex;
+  gap: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}

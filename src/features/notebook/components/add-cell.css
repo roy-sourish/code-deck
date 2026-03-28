@@ -1,0 +1,28 @@
+.add-cell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  opacity: 0.2;
+  transition: opacity 0.2s ease;
+}
+
+.cell-list:hover .add-cell,
+.add-cell:hover,
+.add-cell--force-visible {
+  opacity: 1;
+}
+
+.add-cell__line {
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(90deg, transparent, #4b5a70, transparent);
+}
+
+.add-cell__buttons {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  gap: 0.75rem;
+  transform: translateX(-50%);
+}

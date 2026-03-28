@@ -1,0 +1,42 @@
+.app-shell {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.app-shell__header {
+  margin-bottom: 1.5rem;
+}
+
+.app-shell__eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.app-shell__title {
+  margin: 0;
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+.app-shell__subtitle {
+  max-width: 42rem;
+  margin: 0.75rem 0 0;
+  color: #cfd8e3;
+  line-height: 1.5;
+}
+
+.app-shell__status {
+  margin-bottom: 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #3a4654;
+  border-radius: 12px;
+  background: rgba(17, 24, 39, 0.55);
+  color: #d8e1eb;
+}
+
+.app-shell__error {
+  margin-bottom: 1rem;
+}

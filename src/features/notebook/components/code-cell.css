@@ -1,0 +1,18 @@
+.code-cell {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+}
+
+.code-cell__status {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 25;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(15, 23, 32, 0.9);
+  color: #9bc6ff;
+  font-size: 0.75rem;
+}

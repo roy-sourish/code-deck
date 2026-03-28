@@ -1,0 +1,10 @@
+.cell-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.cell-list__empty {
+  margin: 0 0 0.5rem;
+  color: #c7d2e1;
+  text-align: center;
+}
