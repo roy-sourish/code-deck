@@ -8,7 +8,7 @@ export const startService = async () => {
   if (!initializedPromise) {
     initializedPromise = esbuild.initialize({
       worker: true,
-      wasmURL: "https://unpkg.com/esbuild-wasm/esbuild.wasm",
+      wasmURL: "/esbuild.wasm",
     });
   }
 
